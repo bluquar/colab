@@ -1,0 +1,31 @@
+{
+  "author" : "CoLab Team",
+  "commands" : [
+    {
+      "script" : "script.cocoascript",
+      "handler" : "saveInitialState",
+      "shortcut" : "",
+      "name" : "Save Initial State",
+      "identifier" : "saveInitialState"
+    },
+    {
+      "script" : "script.cocoascript",
+      "handler" : "getDiff",
+      "shortcut" : "",
+      "name" : "Get Diff",
+      "identifier" : "getDiff"
+    }
+  ],
+  "menu": {
+    "isRoot": true,
+    "items": [
+      "saveInitialState",
+      "getDiff"
+    ],
+  },
+  "identifier" : "com.colab.colab",
+  "version" : "1.0",
+  "description" : "CoLab!",
+  "authorEmail" : "chris@cbarker.net",
+  "name" : "CoLab"
+}
